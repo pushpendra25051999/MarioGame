@@ -1,8 +1,9 @@
-package Pushpendra.com.MarioGame.tile;
+package Pushpendra.com.MarioGame.entity;
 
 import java.awt.*;
 
-public class Tile {
+public class Entity {
+
     public int x,y;
     public int width, height;
 
@@ -42,7 +43,7 @@ public class Tile {
         this.solid = solid;
     }
 
-    public Tile(int x, int y, int width, int height, boolean solid){
+    public Entity(int x, int y, int width, int height, boolean solid){
         this.x = x;
         this.y = y;
         this.width = width;
